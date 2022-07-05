@@ -1,7 +1,10 @@
 body {
     margin: 0;
     padding: 0;
-    /* font-family: roboto, sans-serif; */
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    font-family: roboto, sans-serif;
 }
 
 .nav {
@@ -10,6 +13,8 @@ body {
 
 .logo {
     margin-right: auto;
+    font-size: 24px;
+    color: #F9FAF8;
 }
 
 .links {
@@ -29,11 +34,41 @@ body {
 
 .left {
     width: 400px;
+    margin-right: auto;
 }
 
-.right {
+.web-awesome {
+    font-size: 48px;
+    font-weight: extra-bold;
+}
+
+.hero-text {
+    font-size: 18px;
+}
+
+.information-txt {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.right-placeholder {
     padding: 80px 100px;
-    background-color: #E5E7EB;
+    background-color: #89898b; 
+}
+
+.main-content { 
+    flex: 1;
+}
+
+.container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
 }
 
 .square {
@@ -46,6 +81,8 @@ body {
 
 .squares {
     display: flex;
+    justify-content: center;
+    gap: 20px;
 }
 
 .random-info-el {
@@ -56,6 +93,7 @@ body {
 .thor-quote {
     width: 700px;
     margin: 0 auto;
+    background-color: #E5E7EB;
 }
 
 .thor-quote p {
@@ -71,4 +109,9 @@ button {
     width: 150px;
     padding: 10px 20px;
     border-radius: 6px;
+}
+
+.footer {
+    background-color: #1F2937;
+    padding: 30px;
 }
