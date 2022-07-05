@@ -9,6 +9,7 @@ body {
 
 .nav {
     display: flex;
+    margin: 0 400px;
 }
 
 .logo {
@@ -30,6 +31,7 @@ body {
 .hero {
     display: flex;
     padding: 20px;
+    margin: 0 380px;
 }
 
 .left {
