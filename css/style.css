@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    padding: 0;
+    /* font-family: roboto, sans-serif; */
+}
+
+.nav {
+    display: flex;
+}
+
+.logo {
+    margin-right: auto;
+}
+
+.links {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-img {
+    background-color: #1F2937;
+    color: white;
+}
+
+.hero {
+    display: flex;
+    padding: 20px;
+}
+
+.left {
+    width: 400px;
+}
+
+.right {
+    padding: 80px 100px;
+    background-color: #E5E7EB;
+}
+
+.square {
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    border: 2px solid blue;
+    border-radius: 6px;
+}
+
+.squares {
+    display: flex;
+}
+
+.random-info-el {
+    display: flex;
+    flex-direction: column;
+}
+
+.thor-quote {
+    width: 700px;
+    margin: 0 auto;
+}
+
+.thor-quote p {
+    text-align: right;
+}
+
+.action {
+    display: flex;
+}
+
+button {
+    height: 50px;
+    width: 150px;
+    padding: 10px 20px;
+    border-radius: 6px;
+}
