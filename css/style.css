@@ -10,6 +10,7 @@ body {
 .nav {
     display: flex;
     margin: 0 400px;
+    align-items: center;
 }
 
 .logo {
@@ -30,7 +31,7 @@ body {
 
 .hero {
     display: flex;
-    padding: 20px;
+    padding: 50px 0;
     margin: 0 380px;
 }
 
@@ -42,10 +43,12 @@ body {
 .web-awesome {
     font-size: 48px;
     font-weight: extra-bold;
+    margin: 0;
 }
 
 .hero-text {
-    font-size: 18px;
+    font-size: 15px;
+    margin: 10px 0;
 }
 
 .information-txt {
@@ -53,10 +56,11 @@ body {
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
+    margin-top: 0;
 }
 
 .right-placeholder {
-    padding: 80px 100px;
+    padding: 10px 100px;
     background-color: #89898b; 
 }
 
@@ -90,16 +94,28 @@ body {
 .random-info-el {
     display: flex;
     flex-direction: column;
+    padding: 50px 0;
 }
 
 .thor-quote {
-    width: 700px;
+    width: 100%;
     margin: 0 auto;
     background-color: #E5E7EB;
+    font-style: italic;
+    padding: 50px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.thor-quote p {
+.quote {
+    font-size: 36px;
+    width: 600px;
+}
+
+.thor-quote .person {
     text-align: right;
+    width: 600px;
 }
 
 .action {
@@ -109,11 +125,14 @@ body {
 button {
     height: 50px;
     width: 150px;
-    padding: 10px 20px;
+    padding: 5px 10px;
     border-radius: 6px;
+    background-color: #3882F6;
+    color: white;
+    border: none;
 }
 
 .footer {
     background-color: #1F2937;
-    padding: 30px;
+    padding: 20px;
 }
